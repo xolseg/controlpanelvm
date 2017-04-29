@@ -28,5 +28,3 @@ CREATE TABLE `virtualmachines`(
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `nodes` (`name`, `url`) VALUES  ('node1', 'node1.lotsman-pro.com'),  ('node2', 'node2.lotsman-pro.com'),  ('node3', 'node3.lotsman-pro.com'),  ('node4', 'node4.lotsman-pro.com'),  ('node5', 'node5.lotsman-pro.com');
-INSERT INTO `commands` (`command`) VALUES  ('start'),  ('reboot'),  ('shutdown'),  ('reset'),  ('destroy');
